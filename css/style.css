@@ -131,7 +131,7 @@ table {
 /*--start editing from here--*/
 
 a {
-	background: #4682B4;
+	background: #A21F63;
 	color: #FFFAFA;
 	font-size: 18px;
 	font-weight: 600;
@@ -340,7 +340,7 @@ h3.inner-hdng-agileinfo {
 .main-w3layouts-content {
 	width: 50%;
 	margin: 0 auto;
-	background: rgba(0, 0, 0, 0.77);
+	background: rgba(77, 21, 80, 0.54);
 	-webkit-box-shadow: 5px 5px 24px 2px rgba(80, 80, 80, 0.42);
 	-moz-box-shadow: 5px 5px 24px 2px rgba(80, 80, 80, 0.42);
 	box-shadow: 5px 5px 24px 2px rgba(80, 80, 80, 0.42);
