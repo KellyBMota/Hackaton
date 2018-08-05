@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Escort Registration</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!--fonts-->
+	<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+	<!--//fonts-->
+</head>
+
+<body>
+	<!--background-->
+	<h1>Escort Register</h1>
+	<div class="main-w3layouts-content">
+		<div class="top-section">
+			<h2 class="sub-hdng-agileits-w3layouts">Sign Up</h2>
+			<p>Please fill the form below.</p>
+		</div>
+		<div class="w3-agile-login-form">
+			<form action="#" method="post">
+				<div class="top-fields-wthree">
+					<div class="input-fields-w3ls">
+						<input type="text" name="Name" placeholder="Name" required="" />
+					</div>
+					<div class="input-fields-w3ls">
+						<input type="email" name="Email" placeholder="Email" required="" />
+					</div>
+					<div class="input-fields-w3ls">
+						<input type="text" name="Phone" placeholder="Phone" required="" />
+					</div>
+                    <div class="input-fields-w3ls">
+						<input type="text" name="Id" placeholder="Id" required="" />
+					</div>
+				</div>
+				<div class="mid-fields-agileits-w3layouts">
+					<div class="input-fields-w3ls2">
+						<input id="datepicker" name="Text" type="text" placeholder="" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Date of Birth';}"
+						    required="" />
+					</div>
+					<div class="input-fields-w3ls2">
+						<select id="country" onchange="change_country(this.value)" class="frm-field required" required="">
+							<option value="">Gender</option>
+							<option value="">Female</option>
+							<option value="">Male</option>  
+                            <option value="">Another</option>   
+
+						</select>
+
+					</div>
+				</div>
+				<textarea name="Comments" placeholder="Idioms" required=""></textarea>
+				<textarea name="Comments" placeholder="Address" required=""></textarea>
+                <textarea name="Comments" placeholder="Service Description" required=""></textarea>
+				<a href="teste.html">Register</a> 
+			</form>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy-right-w3l">
+	</div>
+	<!-- JavaScript plugins -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+	<!-- Calendar -->
+	<script src="js/jquery-ui.js"></script>
+	<script>
+		$(function () {
+			$("#datepicker,#datepicker1,#datepicker2,#datepicker3").datepicker();
+		});
+	</script>
+	<!-- //Calendar -->
+	<!--// JavaScript plugins -->
+</body>
+
+</html>
