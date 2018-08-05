@@ -137,7 +137,25 @@ table {
 /* start editing from here */
 
 a {
+    background: #4682B4;
+	color: #FFFAFA;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
     text-decoration: none;
+	border: 0 solid #ffd877;
+	width: 100%;
+	outline: none;
+	cursor: pointer;
+	-webkit-appearance: none;
+	padding: 13px 13px;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .txt-rt {
@@ -399,7 +417,7 @@ h2 i {
 }
 
 input.checkbox {
-    background: #fb5252;
+    background: #4682B4;
     cursor: pointer;
     width: 1.2em;
     height: 1.2em;

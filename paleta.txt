@@ -1,0 +1,4 @@
+cores:
+
+#D81C5C (MAIS CLARA)
+#A21F63 (MAIS ESCURA)
